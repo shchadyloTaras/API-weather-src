@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <div class="row">
+        <h1>open weather map</h1>
+        <div class="col">
+          <input type="text" id="city" name="city">
+          <button id="search-city" type="submit">Search city</button>
+        </div>
+        <div class="col">
+          <div class="item">
+            <h2>temperature <span>(C)</span>:</h2>
+            <p id="temp"></p>
+          </div>
+          <div class="item">
+            <h2>humidity <span>(%)</span>:</h2>
+            <p id="hum"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
